@@ -1,3 +1,58 @@
+```
+# Arduino build artifacts
+*.hex
+*.elf
+*.bin
+*.map
+*.sym
+*.lss
+*.d
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
 
-rom.bin
-rom_12bit.h
+# Arduino IDE files
+build/
+Build/
+build-*/
+Build-*/*
+
+# PlatformIO
+.pio/
+pioenvs/
+piolibdeps/
+
+# Arduino libraries cache
+.libs/
+lib/
+libraries/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.~
+*~
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+```
